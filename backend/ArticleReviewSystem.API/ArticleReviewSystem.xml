@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ArticleReviewSystem.API</name>
+    </assembly>
+    <members>
+        <member name="M:ArticleReviewSystem.API.Controllers.ArticleController.GetArticleByAuthorId(ArticleReviewSystem.API.Services.Helpers.ArticleQueryFilter)">
+            <summary>
+            Получение короткого списка статей для автора(по id из токена) и их фильтрация(через запрос по ссылке)
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ArticleReviewSystem.API.Controllers.FileController.GetFileById(System.Guid)">
+            <summary>
+            Отправка файла по Id
+            </summary>
+            <param name="id">Id файла</param>
+            <returns></returns>
+        </member>
+        <member name="M:ArticleReviewSystem.API.Controllers.LoginController.CreateUser(ArticleReviewSystem.API.Contracts.RegisterRequest)">
+            <summary>
+            Регистрация нового пользователя
+            </summary>
+            <param name="userRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ArticleReviewSystem.API.Controllers.LoginController.LoginUser(ArticleReviewSystem.API.Contracts.UserLogin)">
+            <summary>
+            Вход пользователя
+            </summary>
+            <param name="userLogin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ArticleReviewSystem.API.Controllers.ReviewController.GetShortReviews(ArticleReviewSystem.API.Services.Helpers.ReviewQueryFilter)">
+            <summary>
+            Получение короткого списка рецензий по авторизованному пользователю с фильтрацией через url
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ArticleReviewSystem.API.Controllers.ReviewerController">
+            <summary>
+            Endpoint рецензента
+            </summary>
+            <param name="_service"></param>
+            <param name="_log"></param>
+        </member>
+        <member name="M:ArticleReviewSystem.API.Controllers.ReviewerController.#ctor(ArticleReviewSystem.API.Services.ReviewerService,Microsoft.Extensions.Logging.ILogger{ArticleReviewSystem.API.Controllers.ReviewerController})">
+            <summary>
+            Endpoint рецензента
+            </summary>
+            <param name="_service"></param>
+            <param name="_log"></param>
+        </member>
+        <member name="M:ArticleReviewSystem.API.Controllers.ReviewerController.GetReviewer(System.Guid)">
+            <summary>
+            Информация о рецензенте
+            </summary>
+            <param name="id">Id рецензента(пользователя с ролью Review)</param>
+            <returns>ReviewerResponse</returns>
+        </member>
+        <member name="M:ArticleReviewSystem.API.Controllers.UserController.GetUsers">
+            <summary>
+            Возвращение списка всех пользователей
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ArticleReviewSystem.API.Controllers.UserController.CreateUser(ArticleReviewSystem.API.Contracts.RegisterRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="userRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ArticleReviewSystem.API.Controllers.UserController.UpdateRole(System.String,System.Guid)">
+            <summary>
+            Обновление роли пользователя с Id 
+            </summary>
+            <param name="roleName"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ArticleReviewSystem.API.Controllers.UserController.UpdateUser(ArticleReviewSystem.API.Response.UserRequest,System.Guid)">
+            <summary>
+            Обновление пользователя
+            </summary>
+            <param name="request"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ArticleReviewSystem.API.Controllers.UserController.DeleteUser(System.Guid)">
+            <summary>
+            Удаление пользователя по Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
