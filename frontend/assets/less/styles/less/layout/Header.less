@@ -1,0 +1,89 @@
+@import "../variables.less";
+
+.header{
+  &-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    gap: 45px;
+  }
+}
+
+.header-container{
+  display: flex;
+  height: 80px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: rgba(0, 0, 0, 0.07) solid 1px;
+  vertical-align: center;
+  background: #fff;
+}
+
+.avatar-icon{
+  display: flex;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 56px;
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+  background: unset;
+  border: 0;
+}
+
+.header-title{
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  .font(18px, 500, 'Monserat');
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.header-main{
+  margin-right: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  gap: 12px;
+}
+
+.header-main .ant-avatar {
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.header-main .ant-badge,
+.header-main .anticon {
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+
+.header-main .anticon {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.header-main .ant-badge {
+   transform: translateY(2px);
+}
+
+.header-name {
+  font-weight: 600;
+  margin-left: 8px;
+  color: #222;
+  margin-bottom: 0;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  height: 32px;
+}

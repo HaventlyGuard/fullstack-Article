@@ -1,0 +1,104 @@
+@import '../../variables.less';
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 49px;
+  .font(14px, 500, 'Monserat');
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+  &_dark_blue{
+    background: #284775;
+    padding: 8px 14px;
+    color: white;
+    border: 0;
+  }
+
+  &_exit{
+    width: 120px;
+    height: 42px;
+    background: #1b82ab;
+    background: linear-gradient(90deg,rgba(27, 130, 171, 1) 0%, rgba(206, 222, 212, 1) 50%, rgba(73, 161, 196, 1) 100%);
+  }
+
+  &_menu{
+    margin-left: 80px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background: #a4bcdc;
+  }
+
+  &_menu:hover{
+    box-shadow: #c8d1e6 0px 0px 7px;
+    border-radius: 50%;
+    border: none;
+    background: #ccdafa;
+  }
+
+  &_large {
+    padding: 14px 42px;
+  }
+
+  &-drawer {
+        background: #fff;
+        border: 0;
+      padding: 10px 15px;
+    width: 100%;
+        transition: all 0.3s;
+      &_active{
+        background: #767678;
+        transition: all 0.3s;
+      }
+  }
+
+  &_danger{
+    background: #d52b2b;
+    padding: 8px 14px;
+    color: #fff;
+  }
+
+  &_white{
+    background: #ffffff;
+    color: #000;
+  }
+
+  &_sign-up{
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    color: #fff;
+    padding: 3px 10px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  }
+
+  &_sign-up{
+
+  }
+
+  &_search{
+    background: #fff;
+    border: 1px solid #999;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    right: 0;
+  }
+
+  &_max-width {
+    width: 100%;
+  }
+
+  &_min-width {
+    padding: 8px 48px;
+  }
+
+
+  @media(max-width: 420px) {
+    width: 100%;
+  }
+}
