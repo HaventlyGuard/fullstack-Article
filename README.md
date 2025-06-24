@@ -1,4 +1,5 @@
-#fullstack Article Platform 🚀
+# fullstack Article Platform 🚀
+
 Полнофункциональная платформа для публикации и обсуждения статей
 
 📌 О проекте
