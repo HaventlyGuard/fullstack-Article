@@ -1,0 +1,18 @@
+{
+    "cost": "Cost",
+    "events": "Events",
+    "filters": "Filters",
+    "search": "Search",
+    "dateStart": "Date start",
+    "dateEnd": "Date end",
+    "clear": "Clear",
+    "expert": "Expert",
+    "theme": "Theme",
+    "edit": "Edit",
+    "participating": "Participating",
+    "signUp": "Sign Up",
+    "tickets": "Tickets",
+    "about": "About",
+    "apply": "Apply",
+    "place": "Location"
+}

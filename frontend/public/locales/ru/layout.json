@@ -1,0 +1,20 @@
+{
+  "navigator": "Навигатор",
+  "change-locale": "Change locale",
+  "to-second-page": "To second page",
+  "error-with-status": "A {{statusCode}} error occurred on server",
+  "error-without-status": "An error occurred on the server",
+  "title": "Home | next-i18next",
+  "lang-symbol": "ru",
+  "main": "Главная",
+  "sign_in": "Вход",
+  "enter": "Войти",
+  "sign_in_from_facebook": "Войти через Facebook",
+  "sign_in_from_vk": "Войти через Вконтакте",
+  "sign_up": "Регистрация",
+  "sign_out": "Выйти",
+  "reset_password": "Сбросить пароль",
+  "forgot_password": "Напомнить пароль",
+  "admin_view": "Административный режим",
+  "standard_view": "Стандартный режим"
+}

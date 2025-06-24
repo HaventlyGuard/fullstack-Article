@@ -1,0 +1,14 @@
+{
+  "navigator": "Navigator",
+  "lang-symbol": "en",
+  "main": "Main",
+  "sign_in": "Sign in",
+  "enter": "Sign in",
+  "sign_in_from_facebook": "Sign in from facebook",
+  "sign_in_from_vk": "Sign in from vk",
+  "sign_up": "Sign up",
+  "forgot_password": "Forgot password",
+  "reset_password": "Reset password",
+  "admin_view": "Administration view",
+  "standard_view": "Standard view"
+}
