@@ -1,0 +1,21 @@
+
+@code-family: 'Monserat', sans-serif;
+@font-family: @code-family;
+
+.font(@fontSize; @fontWeight: normal; @fontFamily: @font-family){
+  font-family: @font-family;
+  font-weight: @fontWeight;
+  font-size: @fontSize;
+  letter-spacing: 0.045em;
+}
+
+// BREAKPOINTS //
+
+@mobile: 320px;
+@mobileLandscape: 480px;
+@tablet: 768px;
+@tabletLandscape: 1024px;
+@desktop: 1200px;
+@desktopLarge: 1500px;
+@desktopWide: 1920px;
+
